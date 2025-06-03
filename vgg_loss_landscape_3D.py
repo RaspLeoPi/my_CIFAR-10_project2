@@ -87,7 +87,7 @@ def visualize_compare_landscapes(model1, model2, criterion, loader, resolution=2
     ax2.view_init(elev=30, azim=45)
     
     plt.tight_layout()
-    plt.savefig("figures/landscape_vis.png")
+    plt.savefig("figures/landscape_vis_3d.png")
     plt.close()
 
 def get_testloader(ratio: float=1):
