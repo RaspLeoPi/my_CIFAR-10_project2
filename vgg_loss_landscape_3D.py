@@ -158,6 +158,6 @@ state_dict = torch.load("models/exp8_epochs125_seed42_model.pth", map_location=d
 model2.load_state_dict(state_dict)
 model2.eval()
 
-loader = get_trainloader(0.01, 42)
+loader = get_trainloader(0.1, 42)
 
 visualize_compare_landscapes(model1, model2, criterion, loader)
