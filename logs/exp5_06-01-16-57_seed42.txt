@@ -1,0 +1,24 @@
+--- Running exp5 ---
+
+The random seed used: 42
+Using device: cuda
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 196/196 [00:06<00:00, 28.62it/s, accuracy=44.4, loss=1.17]
+Epoch 1: Train Loss: 1.5166, Train Acc: 44.35% | Test Loss: 1.2316, Test Acc: 57.76%
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 196/196 [00:06<00:00, 29.79it/s, accuracy=66, loss=0.729]
+Epoch 2: Train Loss: 0.9488, Train Acc: 66.04% | Test Loss: 1.2335, Test Acc: 61.95%
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 196/196 [00:06<00:00, 29.76it/s, accuracy=75.4, loss=0.538]
+Epoch 3: Train Loss: 0.7002, Train Acc: 75.40% | Test Loss: 0.8305, Test Acc: 73.03%
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 4: 100%|██████████| 196/196 [00:06<00:00, 29.57it/s, accuracy=79.8, loss=0.446]
+Epoch 4: Train Loss: 0.5809, Train Acc: 79.85% | Test Loss: 0.6392, Test Acc: 78.54%
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 5: 100%|██████████| 196/196 [00:06<00:00, 29.48it/s, accuracy=82.6, loss=0.385]
+Epoch 5: Train Loss: 0.5015, Train Acc: 82.63% | Test Loss: 0.5700, Test Acc: 81.10%
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 6: 100%|██████████| 196/196 [00:06<00:00, 29.70it/s, accuracy=84.5, loss=0.344]
+Epoch 6: Train Loss: 0.4480, Train Acc: 84.48% | Test Loss: 0.6690, Test Acc: 78.91%
+Epoch 7:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 7: 100%|██████████| 196/196 [00:06<00:00, 29.67it/s, accuracy=85.8, loss=0.317]
+Epoch 7: Train Loss: 0.4130, Train Acc: 85.76% | Test Loss: 0.5014, Test Acc: 83.01%
+Epoch 8:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 8: 100%|██████████| 196/196 [00:06<00:00, 29.76it/s, accuracy=86.8, loss=0.292]
+Epoch 8: Train Loss: 0.3802, Train Acc: 86.82% | Test Loss: 0.5254, Test Acc: 82.99%
+Epoch 9:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 9: 100%|██████████| 196/196 [00:06<00:00, 29.75it/s, accuracy=87.6, loss=0.274]
+Epoch 9: Train Loss: 0.3567, Train Acc: 87.58% | Test Loss: 0.5788, Test Acc: 81.84%
+Epoch 10:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 10: 100%|██████████| 196/196 [00:06<00:00, 29.70it/s, accuracy=88.3, loss=0.259]
+Epoch 10: Train Loss: 0.3374, Train Acc: 88.26% | Test Loss: 0.4611, Test Acc: 84.67%

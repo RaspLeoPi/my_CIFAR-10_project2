@@ -1,0 +1,254 @@
+--- Running exp3 ---
+
+The random seed used: 42
+Using device: cuda
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 196/196 [00:08<00:00, 22.80it/s, accuracy=25.3, loss=1.63]
+Epoch 1: Train Loss: 2.1212, Train Acc: 25.33% | Test Loss: 1.7770, Test Acc: 31.96%
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 196/196 [00:08<00:00, 22.80it/s, accuracy=40.7, loss=1.22]
+Epoch 2: Train Loss: 1.5850, Train Acc: 40.66% | Test Loss: 1.5372, Test Acc: 42.88%
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 196/196 [00:08<00:00, 21.93it/s, accuracy=49.8, loss=1.06]
+Epoch 3: Train Loss: 1.3758, Train Acc: 49.79% | Test Loss: 1.3357, Test Acc: 50.79%
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 4: 100%|██████████| 196/196 [00:09<00:00, 19.66it/s, accuracy=56.6, loss=0.924]
+Epoch 4: Train Loss: 1.2032, Train Acc: 56.57% | Test Loss: 1.2983, Test Acc: 53.71%
+Epoch 5:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 5:  87%|████████▋ | 170/196 [00:10<00:01, 16.94it/s, accuracy=62.5, loss=0.806]Epoch 5: 100%|██████████| 196/196 [00:11<00:00, 16.82it/s, accuracy=62.9, loss=0.799]
+Epoch 5: Train Loss: 1.0405, Train Acc: 62.85% | Test Loss: 1.0004, Test Acc: 64.90%
+Epoch 6:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 6:  89%|████████▉ | 174/196 [00:10<00:01, 17.36it/s, accuracy=67.7, loss=0.695]Epoch 6: 100%|██████████| 196/196 [00:11<00:00, 17.12it/s, accuracy=67.9, loss=0.692]
+Epoch 6: Train Loss: 0.9009, Train Acc: 67.91% | Test Loss: 1.1427, Test Acc: 62.12%
+Epoch 7:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 7:  87%|████████▋ | 171/196 [00:10<00:01, 17.03it/s, accuracy=71.6, loss=0.619]Epoch 7: 100%|██████████| 196/196 [00:11<00:00, 17.56it/s, accuracy=71.7, loss=0.619]
+Epoch 7: Train Loss: 0.8051, Train Acc: 71.68% | Test Loss: 1.0968, Test Acc: 63.01%
+Epoch 8:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 8:  87%|████████▋ | 171/196 [00:10<00:01, 17.09it/s, accuracy=74.6, loss=0.558]Epoch 8: 100%|██████████| 196/196 [00:11<00:00, 16.84it/s, accuracy=74.7, loss=0.557]
+Epoch 8: Train Loss: 0.7250, Train Acc: 74.69% | Test Loss: 0.7563, Test Acc: 74.54%
+Epoch 9:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 9:  87%|████████▋ | 171/196 [00:10<00:01, 17.03it/s, accuracy=77.4, loss=0.495]Epoch 9: 100%|██████████| 196/196 [00:11<00:00, 17.62it/s, accuracy=77.4, loss=0.495]
+Epoch 9: Train Loss: 0.6441, Train Acc: 77.43% | Test Loss: 0.7311, Test Acc: 74.77%
+Epoch 10:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 10:  88%|████████▊ | 172/196 [00:10<00:01, 17.20it/s, accuracy=79.8, loss=0.445]Epoch 10: 100%|██████████| 196/196 [00:11<00:00, 17.01it/s, accuracy=79.8, loss=0.446]
+Epoch 10: Train Loss: 0.5807, Train Acc: 79.84% | Test Loss: 0.7523, Test Acc: 74.49%
+Epoch 11:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 11:  91%|█████████ | 178/196 [00:10<00:01, 17.70it/s, accuracy=81.5, loss=0.407]Epoch 11: 100%|██████████| 196/196 [00:11<00:00, 17.49it/s, accuracy=81.6, loss=0.407]
+Epoch 11: Train Loss: 0.5301, Train Acc: 81.57% | Test Loss: 1.0408, Test Acc: 69.41%
+Epoch 12:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 12:  87%|████████▋ | 171/196 [00:10<00:01, 17.04it/s, accuracy=82.7, loss=0.381]Epoch 12: 100%|██████████| 196/196 [00:11<00:00, 17.66it/s, accuracy=82.8, loss=0.38] 
+Epoch 12: Train Loss: 0.4944, Train Acc: 82.84% | Test Loss: 0.7304, Test Acc: 75.90%
+Epoch 13:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 13:  88%|████████▊ | 172/196 [00:10<00:01, 17.14it/s, accuracy=84, loss=0.353]Epoch 13: 100%|██████████| 196/196 [00:11<00:00, 16.99it/s, accuracy=84.1, loss=0.352]
+Epoch 13: Train Loss: 0.4584, Train Acc: 84.09% | Test Loss: 0.6003, Test Acc: 79.21%
+Epoch 14:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 14:  88%|████████▊ | 172/196 [00:10<00:01, 17.09it/s, accuracy=85, loss=0.33]Epoch 14: 100%|██████████| 196/196 [00:11<00:00, 17.39it/s, accuracy=85.1, loss=0.33]
+Epoch 14: Train Loss: 0.4297, Train Acc: 85.07% | Test Loss: 0.7879, Test Acc: 74.34%
+Epoch 15:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 15:  88%|████████▊ | 172/196 [00:10<00:01, 17.14it/s, accuracy=86, loss=0.313]Epoch 15: 100%|██████████| 196/196 [00:11<00:00, 17.13it/s, accuracy=85.9, loss=0.314]
+Epoch 15: Train Loss: 0.4083, Train Acc: 85.94% | Test Loss: 0.9311, Test Acc: 72.51%
+Epoch 16:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 16:  87%|████████▋ | 171/196 [00:10<00:01, 17.09it/s, accuracy=86.8, loss=0.295]Epoch 16: 100%|██████████| 196/196 [00:11<00:00, 16.83it/s, accuracy=86.7, loss=0.297]
+Epoch 16: Train Loss: 0.3864, Train Acc: 86.68% | Test Loss: 0.8780, Test Acc: 72.69%
+Epoch 17:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 17:  87%|████████▋ | 170/196 [00:10<00:01, 16.99it/s, accuracy=87.1, loss=0.286]Epoch 17: 100%|██████████| 196/196 [00:11<00:00, 17.55it/s, accuracy=87.1, loss=0.287]
+Epoch 17: Train Loss: 0.3736, Train Acc: 87.06% | Test Loss: 0.5308, Test Acc: 82.41%
+Epoch 18:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 18: 100%|██████████| 196/196 [00:08<00:00, 22.71it/s, accuracy=87.8, loss=0.275]
+Epoch 18: Train Loss: 0.3573, Train Acc: 87.77% | Test Loss: 0.6335, Test Acc: 80.09%
+Epoch 19:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 19: 100%|██████████| 196/196 [00:08<00:00, 23.19it/s, accuracy=88.3, loss=0.261]
+Epoch 19: Train Loss: 0.3397, Train Acc: 88.30% | Test Loss: 0.5784, Test Acc: 81.23%
+Epoch 20:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 20: 100%|██████████| 196/196 [00:08<00:00, 21.89it/s, accuracy=88.6, loss=0.253]
+Epoch 20: Train Loss: 0.3296, Train Acc: 88.58% | Test Loss: 0.5253, Test Acc: 82.99%
+Epoch 21:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 21: 100%|██████████| 196/196 [00:08<00:00, 22.15it/s, accuracy=88.9, loss=0.247]
+Epoch 21: Train Loss: 0.3216, Train Acc: 88.90% | Test Loss: 0.5540, Test Acc: 81.92%
+Epoch 22:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 22: 100%|██████████| 196/196 [00:08<00:00, 23.24it/s, accuracy=89.4, loss=0.235]
+Epoch 22: Train Loss: 0.3059, Train Acc: 89.40% | Test Loss: 0.7208, Test Acc: 78.39%
+Epoch 23:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 23: 100%|██████████| 196/196 [00:08<00:00, 22.29it/s, accuracy=89.7, loss=0.228]
+Epoch 23: Train Loss: 0.2972, Train Acc: 89.73% | Test Loss: 0.5313, Test Acc: 82.52%
+Epoch 24:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 24: 100%|██████████| 196/196 [00:08<00:00, 23.42it/s, accuracy=90.1, loss=0.223]
+Epoch 24: Train Loss: 0.2905, Train Acc: 90.09% | Test Loss: 0.4938, Test Acc: 84.48%
+Epoch 25:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 25: 100%|██████████| 196/196 [00:08<00:00, 22.68it/s, accuracy=90.1, loss=0.22]
+Epoch 25: Train Loss: 0.2864, Train Acc: 90.11% | Test Loss: 0.6153, Test Acc: 81.80%
+Epoch 26:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 26: 100%|██████████| 196/196 [00:08<00:00, 22.80it/s, accuracy=90.5, loss=0.212]
+Epoch 26: Train Loss: 0.2763, Train Acc: 90.50% | Test Loss: 0.4069, Test Acc: 86.47%
+Epoch 27:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 27: 100%|██████████| 196/196 [00:08<00:00, 22.94it/s, accuracy=90.7, loss=0.209]
+Epoch 27: Train Loss: 0.2714, Train Acc: 90.67% | Test Loss: 0.4637, Test Acc: 84.57%
+Epoch 28:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 28: 100%|██████████| 196/196 [00:08<00:00, 23.03it/s, accuracy=90.9, loss=0.204]
+Epoch 28: Train Loss: 0.2658, Train Acc: 90.87% | Test Loss: 0.4334, Test Acc: 85.72%
+Epoch 29:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 29: 100%|██████████| 196/196 [00:08<00:00, 22.86it/s, accuracy=91, loss=0.203]
+Epoch 29: Train Loss: 0.2636, Train Acc: 90.96% | Test Loss: 0.4721, Test Acc: 85.31%
+Epoch 30:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 30: 100%|██████████| 196/196 [00:08<00:00, 23.29it/s, accuracy=91.3, loss=0.197]
+Epoch 30: Train Loss: 0.2569, Train Acc: 91.26% | Test Loss: 0.7102, Test Acc: 78.59%
+Epoch 31:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 31: 100%|██████████| 196/196 [00:08<00:00, 21.95it/s, accuracy=91.3, loss=0.195]
+Epoch 31: Train Loss: 0.2543, Train Acc: 91.26% | Test Loss: 0.6332, Test Acc: 81.15%
+Epoch 32:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 32: 100%|██████████| 196/196 [00:08<00:00, 23.35it/s, accuracy=91.5, loss=0.191]
+Epoch 32: Train Loss: 0.2480, Train Acc: 91.48% | Test Loss: 0.4998, Test Acc: 84.57%
+Epoch 33:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 33: 100%|██████████| 196/196 [00:08<00:00, 22.16it/s, accuracy=91.5, loss=0.192]
+Epoch 33: Train Loss: 0.2496, Train Acc: 91.46% | Test Loss: 0.5334, Test Acc: 82.84%
+Epoch 34:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 34: 100%|██████████| 196/196 [00:08<00:00, 22.38it/s, accuracy=91.9, loss=0.185]
+Epoch 34: Train Loss: 0.2413, Train Acc: 91.88% | Test Loss: 0.4759, Test Acc: 84.57%
+Epoch 35:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 35: 100%|██████████| 196/196 [00:08<00:00, 21.98it/s, accuracy=91.7, loss=0.186]
+Epoch 35: Train Loss: 0.2419, Train Acc: 91.74% | Test Loss: 0.4286, Test Acc: 86.38%
+Epoch 36:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 36: 100%|██████████| 196/196 [00:08<00:00, 22.73it/s, accuracy=91.9, loss=0.182]
+Epoch 36: Train Loss: 0.2372, Train Acc: 91.87% | Test Loss: 0.4618, Test Acc: 85.17%
+Epoch 37:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 37: 100%|██████████| 196/196 [00:08<00:00, 23.26it/s, accuracy=92, loss=0.178]
+Epoch 37: Train Loss: 0.2316, Train Acc: 92.03% | Test Loss: 0.4423, Test Acc: 85.97%
+Epoch 38:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 38: 100%|██████████| 196/196 [00:08<00:00, 22.44it/s, accuracy=92, loss=0.181]
+Epoch 38: Train Loss: 0.2349, Train Acc: 91.97% | Test Loss: 0.5243, Test Acc: 84.04%
+Epoch 39:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 39: 100%|██████████| 196/196 [00:08<00:00, 22.25it/s, accuracy=92.1, loss=0.176]
+Epoch 39: Train Loss: 0.2294, Train Acc: 92.08% | Test Loss: 0.3798, Test Acc: 87.81%
+Epoch 40:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 40: 100%|██████████| 196/196 [00:08<00:00, 22.85it/s, accuracy=92.1, loss=0.175]
+Epoch 40: Train Loss: 0.2274, Train Acc: 92.10% | Test Loss: 0.4774, Test Acc: 84.91%
+Epoch 41:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 41: 100%|██████████| 196/196 [00:08<00:00, 23.02it/s, accuracy=92.1, loss=0.174]
+Epoch 41: Train Loss: 0.2265, Train Acc: 92.13% | Test Loss: 0.7951, Test Acc: 76.35%
+Epoch 42:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 42: 100%|██████████| 196/196 [00:08<00:00, 23.03it/s, accuracy=92.3, loss=0.173]
+Epoch 42: Train Loss: 0.2246, Train Acc: 92.29% | Test Loss: 0.4595, Test Acc: 85.39%
+Epoch 43:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 43: 100%|██████████| 196/196 [00:08<00:00, 23.67it/s, accuracy=92.3, loss=0.169]
+Epoch 43: Train Loss: 0.2205, Train Acc: 92.31% | Test Loss: 0.5861, Test Acc: 82.59%
+Epoch 44:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 44: 100%|██████████| 196/196 [00:08<00:00, 23.13it/s, accuracy=92.3, loss=0.17]
+Epoch 44: Train Loss: 0.2207, Train Acc: 92.32% | Test Loss: 0.4840, Test Acc: 85.15%
+Epoch 45:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 45: 100%|██████████| 196/196 [00:08<00:00, 23.23it/s, accuracy=92.6, loss=0.166]
+Epoch 45: Train Loss: 0.2155, Train Acc: 92.58% | Test Loss: 0.4269, Test Acc: 86.68%
+Epoch 46:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 46: 100%|██████████| 196/196 [00:08<00:00, 22.72it/s, accuracy=92.5, loss=0.165]
+Epoch 46: Train Loss: 0.2145, Train Acc: 92.50% | Test Loss: 0.4290, Test Acc: 86.74%
+Epoch 47:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 47: 100%|██████████| 196/196 [00:08<00:00, 22.95it/s, accuracy=92.7, loss=0.163]
+Epoch 47: Train Loss: 0.2115, Train Acc: 92.68% | Test Loss: 0.4253, Test Acc: 86.39%
+Epoch 48:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 48: 100%|██████████| 196/196 [00:08<00:00, 22.64it/s, accuracy=92.8, loss=0.162]
+Epoch 48: Train Loss: 0.2108, Train Acc: 92.80% | Test Loss: 0.4393, Test Acc: 86.18%
+Epoch 49:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 49: 100%|██████████| 196/196 [00:08<00:00, 22.78it/s, accuracy=92.8, loss=0.162]
+Epoch 49: Train Loss: 0.2105, Train Acc: 92.84% | Test Loss: 0.4860, Test Acc: 84.65%
+Epoch 50:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 50: 100%|██████████| 196/196 [00:08<00:00, 22.82it/s, accuracy=92.7, loss=0.162]
+Epoch 50: Train Loss: 0.2103, Train Acc: 92.73% | Test Loss: 0.4484, Test Acc: 86.03%
+Epoch 51:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 51: 100%|██████████| 196/196 [00:08<00:00, 22.38it/s, accuracy=92.7, loss=0.162]
+Epoch 51: Train Loss: 0.2104, Train Acc: 92.65% | Test Loss: 0.4185, Test Acc: 86.50%
+Epoch 52:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 52: 100%|██████████| 196/196 [00:08<00:00, 22.27it/s, accuracy=92.9, loss=0.159]
+Epoch 52: Train Loss: 0.2066, Train Acc: 92.86% | Test Loss: 0.4345, Test Acc: 85.79%
+Epoch 53:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 53: 100%|██████████| 196/196 [00:08<00:00, 22.70it/s, accuracy=93, loss=0.155]
+Epoch 53: Train Loss: 0.2020, Train Acc: 92.98% | Test Loss: 0.4117, Test Acc: 86.94%
+Epoch 54:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 54: 100%|██████████| 196/196 [00:08<00:00, 22.50it/s, accuracy=92.9, loss=0.16]
+Epoch 54: Train Loss: 0.2079, Train Acc: 92.86% | Test Loss: 0.6769, Test Acc: 79.07%
+Epoch 55:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 55: 100%|██████████| 196/196 [00:08<00:00, 22.32it/s, accuracy=93.2, loss=0.154]
+Epoch 55: Train Loss: 0.2005, Train Acc: 93.18% | Test Loss: 0.4961, Test Acc: 85.27%
+Epoch 56:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 56: 100%|██████████| 196/196 [00:08<00:00, 22.59it/s, accuracy=93.2, loss=0.154]
+Epoch 56: Train Loss: 0.2010, Train Acc: 93.17% | Test Loss: 0.4086, Test Acc: 87.09%
+Epoch 57:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 57: 100%|██████████| 196/196 [00:08<00:00, 22.18it/s, accuracy=93.3, loss=0.151]
+Epoch 57: Train Loss: 0.1961, Train Acc: 93.29% | Test Loss: 0.4462, Test Acc: 85.91%
+Epoch 58:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 58: 100%|██████████| 196/196 [00:08<00:00, 22.63it/s, accuracy=93.2, loss=0.153]
+Epoch 58: Train Loss: 0.1995, Train Acc: 93.16% | Test Loss: 0.4401, Test Acc: 86.41%
+Epoch 59:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 59: 100%|██████████| 196/196 [00:08<00:00, 23.04it/s, accuracy=93.1, loss=0.154]
+Epoch 59: Train Loss: 0.2004, Train Acc: 93.11% | Test Loss: 0.4028, Test Acc: 87.44%
+Epoch 60:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 60: 100%|██████████| 196/196 [00:08<00:00, 22.39it/s, accuracy=93.2, loss=0.152]
+Epoch 60: Train Loss: 0.1979, Train Acc: 93.16% | Test Loss: 0.4728, Test Acc: 84.53%
+Epoch 61:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 61: 100%|██████████| 196/196 [00:08<00:00, 23.00it/s, accuracy=93.2, loss=0.151]
+Epoch 61: Train Loss: 0.1965, Train Acc: 93.23% | Test Loss: 0.4253, Test Acc: 86.89%
+Epoch 62:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 62: 100%|██████████| 196/196 [00:08<00:00, 22.51it/s, accuracy=93.2, loss=0.151]
+Epoch 62: Train Loss: 0.1966, Train Acc: 93.25% | Test Loss: 0.4319, Test Acc: 86.49%
+Epoch 63:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 63: 100%|██████████| 196/196 [00:08<00:00, 23.51it/s, accuracy=93.2, loss=0.152]
+Epoch 63: Train Loss: 0.1975, Train Acc: 93.25% | Test Loss: 0.4125, Test Acc: 86.89%
+Epoch 64:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 64: 100%|██████████| 196/196 [00:07<00:00, 26.69it/s, accuracy=93.2, loss=0.15]
+Epoch 64: Train Loss: 0.1955, Train Acc: 93.22% | Test Loss: 0.3788, Test Acc: 87.80%
+Epoch 65:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 65: 100%|██████████| 196/196 [00:06<00:00, 29.64it/s, accuracy=93.2, loss=0.15]
+Epoch 65: Train Loss: 0.1955, Train Acc: 93.25% | Test Loss: 0.4048, Test Acc: 86.97%
+Epoch 66:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 66: 100%|██████████| 196/196 [00:06<00:00, 29.55it/s, accuracy=93.4, loss=0.145]
+Epoch 66: Train Loss: 0.1893, Train Acc: 93.42% | Test Loss: 0.4484, Test Acc: 86.28%
+Epoch 67:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 67: 100%|██████████| 196/196 [00:06<00:00, 29.42it/s, accuracy=93.5, loss=0.146]
+Epoch 67: Train Loss: 0.1899, Train Acc: 93.48% | Test Loss: 0.5133, Test Acc: 84.42%
+Epoch 68:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 68: 100%|██████████| 196/196 [00:06<00:00, 29.48it/s, accuracy=93.3, loss=0.151]
+Epoch 68: Train Loss: 0.1964, Train Acc: 93.33% | Test Loss: 0.3689, Test Acc: 87.92%
+Epoch 69:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 69: 100%|██████████| 196/196 [00:06<00:00, 29.68it/s, accuracy=93.2, loss=0.151]
+Epoch 69: Train Loss: 0.1970, Train Acc: 93.17% | Test Loss: 0.5937, Test Acc: 81.86%
+Epoch 70:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 70: 100%|██████████| 196/196 [00:06<00:00, 28.75it/s, accuracy=93.3, loss=0.149]
+Epoch 70: Train Loss: 0.1936, Train Acc: 93.31% | Test Loss: 0.4548, Test Acc: 85.54%
+Epoch 71:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 71: 100%|██████████| 196/196 [00:06<00:00, 29.55it/s, accuracy=93.4, loss=0.148]
+Epoch 71: Train Loss: 0.1933, Train Acc: 93.40% | Test Loss: 0.5302, Test Acc: 83.57%
+Epoch 72:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 72: 100%|██████████| 196/196 [00:06<00:00, 29.67it/s, accuracy=93.5, loss=0.144]
+Epoch 72: Train Loss: 0.1870, Train Acc: 93.49% | Test Loss: 0.4879, Test Acc: 85.22%
+Epoch 73:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 73: 100%|██████████| 196/196 [00:06<00:00, 29.86it/s, accuracy=93.5, loss=0.144]
+Epoch 73: Train Loss: 0.1878, Train Acc: 93.46% | Test Loss: 0.4440, Test Acc: 85.91%
+Epoch 74:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 74: 100%|██████████| 196/196 [00:06<00:00, 29.59it/s, accuracy=93.5, loss=0.143]
+Epoch 74: Train Loss: 0.1863, Train Acc: 93.52% | Test Loss: 0.5007, Test Acc: 84.85%
+Epoch 75:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 75: 100%|██████████| 196/196 [00:06<00:00, 29.29it/s, accuracy=93.4, loss=0.147]
+Epoch 75: Train Loss: 0.1911, Train Acc: 93.44% | Test Loss: 0.4612, Test Acc: 85.59%
+Epoch 76:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 76: 100%|██████████| 196/196 [00:06<00:00, 29.87it/s, accuracy=93.5, loss=0.145]
+Epoch 76: Train Loss: 0.1890, Train Acc: 93.49% | Test Loss: 0.3324, Test Acc: 89.56%
+Epoch 77:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 77: 100%|██████████| 196/196 [00:06<00:00, 29.24it/s, accuracy=93.5, loss=0.144]
+Epoch 77: Train Loss: 0.1875, Train Acc: 93.50% | Test Loss: 0.5629, Test Acc: 83.45%
+Epoch 78:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 78: 100%|██████████| 196/196 [00:06<00:00, 29.71it/s, accuracy=93.7, loss=0.14]
+Epoch 78: Train Loss: 0.1822, Train Acc: 93.71% | Test Loss: 0.4898, Test Acc: 85.12%
+Epoch 79:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 79: 100%|██████████| 196/196 [00:06<00:00, 29.55it/s, accuracy=93.3, loss=0.147]
+Epoch 79: Train Loss: 0.1914, Train Acc: 93.34% | Test Loss: 0.3510, Test Acc: 88.61%
+Epoch 80:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 80: 100%|██████████| 196/196 [00:06<00:00, 29.31it/s, accuracy=93.8, loss=0.142]
+Epoch 80: Train Loss: 0.1846, Train Acc: 93.78% | Test Loss: 0.4485, Test Acc: 85.73%
+Epoch 81:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 81: 100%|██████████| 196/196 [00:06<00:00, 29.25it/s, accuracy=93.7, loss=0.142]
+Epoch 81: Train Loss: 0.1854, Train Acc: 93.66% | Test Loss: 0.5653, Test Acc: 83.25%
+Epoch 82:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 82: 100%|██████████| 196/196 [00:06<00:00, 29.50it/s, accuracy=93.5, loss=0.145]
+Epoch 82: Train Loss: 0.1892, Train Acc: 93.54% | Test Loss: 0.4991, Test Acc: 84.97%
+Epoch 83:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 83: 100%|██████████| 196/196 [00:06<00:00, 29.83it/s, accuracy=93.6, loss=0.144]
+Epoch 83: Train Loss: 0.1872, Train Acc: 93.58% | Test Loss: 0.4737, Test Acc: 85.39%
+Epoch 84:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 84: 100%|██████████| 196/196 [00:06<00:00, 29.41it/s, accuracy=93.6, loss=0.143]
+Epoch 84: Train Loss: 0.1858, Train Acc: 93.62% | Test Loss: 0.4119, Test Acc: 86.97%
+Epoch 85:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 85: 100%|██████████| 196/196 [00:06<00:00, 29.24it/s, accuracy=93.9, loss=0.136]
+Epoch 85: Train Loss: 0.1774, Train Acc: 93.89% | Test Loss: 0.8144, Test Acc: 78.97%
+Epoch 86:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 86: 100%|██████████| 196/196 [00:06<00:00, 29.80it/s, accuracy=93.7, loss=0.143]
+Epoch 86: Train Loss: 0.1860, Train Acc: 93.67% | Test Loss: 0.3966, Test Acc: 87.56%
+Epoch 87:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 87: 100%|██████████| 196/196 [00:06<00:00, 29.77it/s, accuracy=93.6, loss=0.143]
+Epoch 87: Train Loss: 0.1858, Train Acc: 93.57% | Test Loss: 0.4190, Test Acc: 87.22%
+Epoch 88:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 88: 100%|██████████| 196/196 [00:06<00:00, 29.18it/s, accuracy=93.7, loss=0.139]
+Epoch 88: Train Loss: 0.1812, Train Acc: 93.73% | Test Loss: 0.3560, Test Acc: 88.86%
+Epoch 89:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 89: 100%|██████████| 196/196 [00:06<00:00, 29.30it/s, accuracy=93.7, loss=0.14]
+Epoch 89: Train Loss: 0.1823, Train Acc: 93.74% | Test Loss: 0.3907, Test Acc: 87.40%
+Epoch 90:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 90: 100%|██████████| 196/196 [00:06<00:00, 29.71it/s, accuracy=93.6, loss=0.141]
+Epoch 90: Train Loss: 0.1841, Train Acc: 93.63% | Test Loss: 0.3900, Test Acc: 87.89%
+Epoch 91:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 91: 100%|██████████| 196/196 [00:06<00:00, 29.62it/s, accuracy=93.7, loss=0.139]
+Epoch 91: Train Loss: 0.1813, Train Acc: 93.71% | Test Loss: 0.5495, Test Acc: 83.34%
+Epoch 92:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 92: 100%|██████████| 196/196 [00:06<00:00, 29.30it/s, accuracy=93.8, loss=0.138]
+Epoch 92: Train Loss: 0.1801, Train Acc: 93.82% | Test Loss: 0.4887, Test Acc: 84.60%
+Epoch 93:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 93: 100%|██████████| 196/196 [00:06<00:00, 29.65it/s, accuracy=93.9, loss=0.136]
+Epoch 93: Train Loss: 0.1766, Train Acc: 93.92% | Test Loss: 0.4504, Test Acc: 86.80%
+Epoch 94:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 94: 100%|██████████| 196/196 [00:06<00:00, 28.94it/s, accuracy=93.8, loss=0.137]
+Epoch 94: Train Loss: 0.1782, Train Acc: 93.84% | Test Loss: 0.3874, Test Acc: 87.14%
+Epoch 95:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 95: 100%|██████████| 196/196 [00:06<00:00, 28.96it/s, accuracy=93.6, loss=0.141]
+Epoch 95: Train Loss: 0.1829, Train Acc: 93.63% | Test Loss: 0.4193, Test Acc: 86.94%
+Epoch 96:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 96: 100%|██████████| 196/196 [00:06<00:00, 29.81it/s, accuracy=93.9, loss=0.14]
+Epoch 96: Train Loss: 0.1819, Train Acc: 93.88% | Test Loss: 0.3849, Test Acc: 87.89%
+Epoch 97:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 97: 100%|██████████| 196/196 [00:06<00:00, 28.71it/s, accuracy=93.8, loss=0.138]
+Epoch 97: Train Loss: 0.1801, Train Acc: 93.77% | Test Loss: 0.4030, Test Acc: 87.23%
+Epoch 98:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 98: 100%|██████████| 196/196 [00:06<00:00, 29.85it/s, accuracy=93.7, loss=0.139]
+Epoch 98: Train Loss: 0.1805, Train Acc: 93.71% | Test Loss: 0.4528, Test Acc: 85.61%
+Epoch 99:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 99: 100%|██████████| 196/196 [00:06<00:00, 29.89it/s, accuracy=93.9, loss=0.135]
+Epoch 99: Train Loss: 0.1758, Train Acc: 93.94% | Test Loss: 0.3633, Test Acc: 88.45%
+Epoch 100:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 100: 100%|██████████| 196/196 [00:06<00:00, 29.71it/s, accuracy=94, loss=0.136]
+Epoch 100: Train Loss: 0.1771, Train Acc: 93.96% | Test Loss: 0.4732, Test Acc: 85.81%
+Epoch 101:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 101: 100%|██████████| 196/196 [00:06<00:00, 29.92it/s, accuracy=93.9, loss=0.137]
+Epoch 101: Train Loss: 0.1787, Train Acc: 93.94% | Test Loss: 0.3461, Test Acc: 88.72%
+Epoch 102:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 102: 100%|██████████| 196/196 [00:06<00:00, 30.00it/s, accuracy=93.9, loss=0.136]
+Epoch 102: Train Loss: 0.1775, Train Acc: 93.93% | Test Loss: 0.3459, Test Acc: 88.63%
+Epoch 103:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 103: 100%|██████████| 196/196 [00:06<00:00, 29.37it/s, accuracy=93.8, loss=0.137]
+Epoch 103: Train Loss: 0.1783, Train Acc: 93.75% | Test Loss: 0.5863, Test Acc: 82.92%
+Epoch 104:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 104: 100%|██████████| 196/196 [00:06<00:00, 28.74it/s, accuracy=93.9, loss=0.138]
+Epoch 104: Train Loss: 0.1793, Train Acc: 93.93% | Test Loss: 0.3631, Test Acc: 88.82%
+Epoch 105:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 105: 100%|██████████| 196/196 [00:06<00:00, 29.61it/s, accuracy=93.9, loss=0.137]
+Epoch 105: Train Loss: 0.1779, Train Acc: 93.87% | Test Loss: 0.3813, Test Acc: 87.91%
+Epoch 106:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 106: 100%|██████████| 196/196 [00:06<00:00, 29.97it/s, accuracy=94.1, loss=0.133]
+Epoch 106: Train Loss: 0.1727, Train Acc: 94.07% | Test Loss: 0.3765, Test Acc: 87.67%
+Epoch 107:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 107: 100%|██████████| 196/196 [00:06<00:00, 29.43it/s, accuracy=93.9, loss=0.136]
+Epoch 107: Train Loss: 0.1764, Train Acc: 93.94% | Test Loss: 0.4449, Test Acc: 86.70%
+Epoch 108:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 108: 100%|██████████| 196/196 [00:06<00:00, 29.98it/s, accuracy=93.9, loss=0.137]
+Epoch 108: Train Loss: 0.1783, Train Acc: 93.91% | Test Loss: 0.3863, Test Acc: 88.10%
+Epoch 109:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 109: 100%|██████████| 196/196 [00:06<00:00, 29.20it/s, accuracy=94.2, loss=0.133]
+Epoch 109: Train Loss: 0.1728, Train Acc: 94.15% | Test Loss: 0.4590, Test Acc: 86.22%
+Epoch 110:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 110: 100%|██████████| 196/196 [00:06<00:00, 29.40it/s, accuracy=94, loss=0.134]
+Epoch 110: Train Loss: 0.1745, Train Acc: 94.05% | Test Loss: 0.4754, Test Acc: 85.72%
+Epoch 111:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 111: 100%|██████████| 196/196 [00:06<00:00, 29.97it/s, accuracy=93.7, loss=0.14]
+Epoch 111: Train Loss: 0.1818, Train Acc: 93.73% | Test Loss: 0.4148, Test Acc: 86.89%
+Epoch 112:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 112: 100%|██████████| 196/196 [00:06<00:00, 29.11it/s, accuracy=94, loss=0.134]
+Epoch 112: Train Loss: 0.1743, Train Acc: 94.03% | Test Loss: 0.4277, Test Acc: 85.78%
+Epoch 113:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 113: 100%|██████████| 196/196 [00:06<00:00, 29.34it/s, accuracy=93.9, loss=0.137]
+Epoch 113: Train Loss: 0.1780, Train Acc: 93.95% | Test Loss: 0.4188, Test Acc: 87.14%
+Epoch 114:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 114: 100%|██████████| 196/196 [00:06<00:00, 29.42it/s, accuracy=94, loss=0.135]
+Epoch 114: Train Loss: 0.1756, Train Acc: 94.05% | Test Loss: 0.4766, Test Acc: 85.80%
+Epoch 115:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 115: 100%|██████████| 196/196 [00:06<00:00, 30.15it/s, accuracy=94, loss=0.135]
+Epoch 115: Train Loss: 0.1760, Train Acc: 94.00% | Test Loss: 0.5520, Test Acc: 83.78%
+Epoch 116:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 116: 100%|██████████| 196/196 [00:06<00:00, 29.91it/s, accuracy=94, loss=0.134]
+Epoch 116: Train Loss: 0.1743, Train Acc: 94.03% | Test Loss: 0.4210, Test Acc: 86.70%
+Epoch 117:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 117: 100%|██████████| 196/196 [00:06<00:00, 29.40it/s, accuracy=94.1, loss=0.133]
+Epoch 117: Train Loss: 0.1730, Train Acc: 94.13% | Test Loss: 0.3858, Test Acc: 87.44%
+Epoch 118:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 118: 100%|██████████| 196/196 [00:06<00:00, 29.05it/s, accuracy=94, loss=0.134]
+Epoch 118: Train Loss: 0.1740, Train Acc: 93.96% | Test Loss: 0.3322, Test Acc: 89.35%
+Epoch 119:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 119: 100%|██████████| 196/196 [00:06<00:00, 29.75it/s, accuracy=94.1, loss=0.133]
+Epoch 119: Train Loss: 0.1734, Train Acc: 94.10% | Test Loss: 0.4466, Test Acc: 86.22%
+Epoch 120:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 120: 100%|██████████| 196/196 [00:06<00:00, 29.47it/s, accuracy=93.9, loss=0.137]
+Epoch 120: Train Loss: 0.1788, Train Acc: 93.88% | Test Loss: 0.3544, Test Acc: 88.38%
+Epoch 121:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 121: 100%|██████████| 196/196 [00:06<00:00, 29.87it/s, accuracy=94, loss=0.133]
+Epoch 121: Train Loss: 0.1727, Train Acc: 94.02% | Test Loss: 0.3325, Test Acc: 89.34%
+Epoch 122:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 122: 100%|██████████| 196/196 [00:06<00:00, 29.51it/s, accuracy=94, loss=0.135]
+Epoch 122: Train Loss: 0.1760, Train Acc: 93.98% | Test Loss: 0.5029, Test Acc: 84.73%
+Epoch 123:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 123: 100%|██████████| 196/196 [00:06<00:00, 29.66it/s, accuracy=94.1, loss=0.133]
+Epoch 123: Train Loss: 0.1734, Train Acc: 94.06% | Test Loss: 0.3581, Test Acc: 88.63%
+Epoch 124:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 124: 100%|██████████| 196/196 [00:06<00:00, 29.25it/s, accuracy=94.2, loss=0.131]
+Epoch 124: Train Loss: 0.1704, Train Acc: 94.17% | Test Loss: 0.4459, Test Acc: 86.11%
+Epoch 125:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 125: 100%|██████████| 196/196 [00:06<00:00, 29.69it/s, accuracy=94.1, loss=0.132]
+Epoch 125: Train Loss: 0.1712, Train Acc: 94.09% | Test Loss: 0.6804, Test Acc: 80.54%

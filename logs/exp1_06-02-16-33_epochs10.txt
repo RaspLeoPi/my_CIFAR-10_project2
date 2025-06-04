@@ -1,0 +1,42 @@
+--- Running exp1 ---
+
+Using device: cuda
+Epoch 1:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 196/196 [00:03<00:00, 60.06it/s, accuracy=35.6, loss=1.32]
+Epoch 1: Train Loss: 1.7161, Train Acc: 35.61% | Test Loss: 1.3439, Test Acc: 49.54%
+Epoch 2:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 196/196 [00:04<00:00, 46.17it/s, accuracy=51.2, loss=1.02]
+Epoch 2: Train Loss: 1.3295, Train Acc: 51.23% | Test Loss: 1.0981, Test Acc: 60.33%
+Epoch 3:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 196/196 [00:04<00:00, 43.68it/s, accuracy=58.2, loss=0.898]
+Epoch 3: Train Loss: 1.1690, Train Acc: 58.17% | Test Loss: 0.9625, Test Acc: 65.85%
+Epoch 4:   0%|          | 0/196 [00:00<?, ?it/s]Epoch 4:  72%|███████▏  | 142/196 [00:03<00:01, 42.94it/s, accuracy=62.2, loss=0.815]
+Traceback (most recent call last):
+  File "/home/ziliao/hello-world/train.py", line 500, in <module>
+    main()
+  File "/home/ziliao/hello-world/train.py", line 488, in main
+    exp_dict[args.exp](trainloader, testloader, timestamp, args.exp, args.epochs)
+  File "/home/ziliao/hello-world/train.py", line 45, in exp1
+    exp_train(trainloader, testloader, timestamp, label, epochs, **kwargs)
+  File "/home/ziliao/hello-world/utilfunc.py", line 136, in exp_train
+    train_loss, train_acc = train(model, device, trainloader, criterion, optimizer, epoch)
+  File "/home/ziliao/hello-world/utilfunc.py", line 57, in train
+    outputs = model(inputs)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ziliao/hello-world/models.py", line 57, in forward
+    x = self.classifier(x)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/container.py", line 240, in forward
+    input = module(input)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/modules/dropout.py", line 70, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/home/ziliao/hello-world/.venv/lib/python3.10/site-packages/torch/nn/functional.py", line 1425, in dropout
+    _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+KeyboardInterrupt
