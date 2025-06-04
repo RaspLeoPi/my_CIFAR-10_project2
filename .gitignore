@@ -18,8 +18,8 @@ data
 # figure file
 figures
 
-# # model file 
-# models
+# model file 
+models
 
 # other files
 uv.lock
