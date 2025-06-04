@@ -93,9 +93,9 @@ def plotter(VGG_max, VGG_min, VGG_BN_max, VGG_BN_min):
     ax.grid(color='lightgray', linestyle = '-', alpha=0.4)
 
     plt.fill_between(X, VGG_max, VGG_min, color="green",linewidth=2, label="Standard VGG", 
-                     alpha=0.8)
-    plt.fill_between(X, VGG_BN_max, VGG_BN_min, color="red",linewidth=2, label="Standard VGG + BatchNorm",
                      alpha=0.5)
+    plt.fill_between(X, VGG_BN_max, VGG_BN_min, color="red",linewidth=2, label="Standard VGG + BatchNorm",
+                     alpha=0.3)
 
     plt.title("Loss Landscape")
     plt.legend(loc="upper right")

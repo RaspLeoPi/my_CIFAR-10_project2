@@ -5,6 +5,7 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import random
+import argparse
 
 from models import VGG_A, VGG_A_BatchNorm
 
@@ -44,7 +45,7 @@ def compute_loss_landscape(model, criterion, loader, direction1, direction2, the
                 loss_grid[i, j] = total_loss / len(loader)
     return alpha, beta, loss_grid
 
-def visualize_compare_landscapes(model1, model2, criterion, loader, resolution=20, radius=0.1):
+def visualize_compare_landscapes(model1, model2, criterion, loader, label, resolution=20, radius=0.1):
     """
     visualization of the two loss landscapes
     """
@@ -88,7 +89,7 @@ def visualize_compare_landscapes(model1, model2, criterion, loader, resolution=2
     ax2.view_init(elev=30, azim=45)
     
     plt.tight_layout()
-    plt.savefig("figures/landscape_vis_3d.png")
+    plt.savefig(f"figures/landscape_vis_3d_{label}.png")
     plt.close()
     pass
 
@@ -141,6 +142,25 @@ def get_trainloader(ratio: float=1, seed: int=None):
     
     return trainloader
 
+def get_testloader(ratio: float=1):
+    """
+    ratio: control the size of the dataset being used
+    range from 0 to 1
+    """
+    transform_test = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616)),
+    ])
+    
+    testset = torchvision.datasets.CIFAR10(
+        root='./data', train=False, download=True, transform=transform_test)
+    subset_size = int(ratio * len(testset))
+    testset_partial = torch.utils.data.Subset(testset, indices=range(subset_size))
+    testloader = torch.utils.data.DataLoader(
+        testset_partial, batch_size=100, shuffle=False, num_workers=4)
+    
+    return testloader
+
 
 torch.cuda.empty_cache()
 
@@ -158,6 +178,15 @@ state_dict = torch.load("models/exp8_epochs125_seed42_model.pth", map_location=d
 model2.load_state_dict(state_dict)
 model2.eval()
 
-loader = get_trainloader(0.1, 42)
+parser = argparse.ArgumentParser()
+parser.add_argument("choice", help="Choose the dataset for visualization", 
+                    choices=["train", "test"])
+args = parser.parse_args()
 
-visualize_compare_landscapes(model1, model2, criterion, loader)
+if args.choice == "train":
+    set_random_seeds(42, device)
+    loader = get_trainloader(0.01, 42)
+elif args.choice == "test":
+    loader = get_testloader(0.01)
+
+visualize_compare_landscapes(model1, model2, criterion, loader, args.choice)
