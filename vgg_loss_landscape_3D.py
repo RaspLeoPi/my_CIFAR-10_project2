@@ -4,6 +4,7 @@ import torchvision
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+import random
 
 from models import VGG_A, VGG_A_BatchNorm
 
@@ -89,25 +90,56 @@ def visualize_compare_landscapes(model1, model2, criterion, loader, resolution=2
     plt.tight_layout()
     plt.savefig("figures/landscape_vis_3d.png")
     plt.close()
+    pass
 
-def get_testloader(ratio: float=1):
+def set_random_seeds(seed_value=0, device='cpu'):
+    if seed_value is not None:
+        np.random.seed(seed_value)
+        torch.manual_seed(seed_value)
+        random.seed(seed_value)
+        if device != 'cpu': 
+            torch.cuda.manual_seed(seed_value)
+            torch.cuda.manual_seed_all(seed_value)
+            pass
+        pass
+    pass
+
+def seed_worker(worker_id):
+    worker_seed = torch.initial_seed() % 2**32  # Same seed for all workers
+    random.seed(worker_seed)
+    np.random.seed(worker_seed)
+    pass
+
+
+def get_trainloader(ratio: float=1, seed: int=None):
     """
-    Return the test loader
-    The ratio controls the quantity of the loaded testset
+    ratio: control the size of the dataset being used
+    range from 0 to 1
     """
-    transform_test = transforms.Compose([
+    transform_train = transforms.Compose([
+        transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616)),
     ])
 
-    testset = torchvision.datasets.CIFAR10(
-        root='./data', train=False, download=True, transform=transform_test)
-    subset_size = int(ratio * len(testset))
-    testset_partial = torch.utils.data.Subset(testset, indices=range(subset_size))
-    testloader = torch.utils.data.DataLoader(
-        testset_partial, batch_size=100, shuffle=False, num_workers=4)
+    trainset = torchvision.datasets.CIFAR10(
+        root='./data', train=True, download=True, transform=transform_train)
+    subset_size = int(ratio * len(trainset))
+    trainset_partial = torch.utils.data.Subset(trainset, indices=range(subset_size))
+
+    if seed is not None:    # fix the seed
+        g = torch.Generator()
+        g.manual_seed(seed)
+        trainloader = torch.utils.data.DataLoader(
+            trainset_partial, batch_size=128, shuffle=True, num_workers=4, 
+            worker_init_fn=seed_worker, generator=g)
+        pass
+    else:
+        trainloader = torch.utils.data.DataLoader(
+            trainset_partial, batch_size=128, shuffle=True, num_workers=4)
     
-    return testloader
+    return trainloader
 
 
 torch.cuda.empty_cache()
@@ -126,6 +158,6 @@ state_dict = torch.load("models/exp8_epochs125_seed42_model.pth", map_location=d
 model2.load_state_dict(state_dict)
 model2.eval()
 
-loader = get_testloader(0.01)
+loader = get_trainloader(0.01, 42)
 
 visualize_compare_landscapes(model1, model2, criterion, loader)
